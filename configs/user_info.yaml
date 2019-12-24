@@ -1,0 +1,15 @@
+借款人:
+  id: 66709
+  mobile_phone: '15612594806'
+  pwd: '12345678'
+  reg_name: 借款人
+投资人:
+  id: 66710
+  mobile_phone: '15670568429'
+  pwd: '12345678'
+  reg_name: 投资人
+管理员:
+  id: 66708
+  mobile_phone: '15656741398'
+  pwd: '12345678'
+  reg_name: 管理员
