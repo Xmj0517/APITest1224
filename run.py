@@ -15,8 +15,7 @@ if not os.path.exists(USER_FILE_DIR):
 suite = unittest.defaultTestLoader.discover(CASES_DIR)
 
 # 拼接生成报告名称，用时间戳
-report_name = do_yaml.read_yaml('report', 'report_name') + '_' + \
-              datetime.strftime(datetime.now(), "%Y%m%d%H%M%S") + '.html'
+report_name = 'report.html'
 
 # 生成报告路径
 report_path = os.path.join(REPORTS_DIR, report_name)
